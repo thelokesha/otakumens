@@ -138,7 +138,7 @@ font-family:serif;
 .content{
     margin-top:2%;
     width:80vw;
-    height:200vh;
+    height:auto;
     display:flex;
     align-items:center;
     flex-direction: column;
@@ -295,7 +295,16 @@ p{
 #vidplayerseven{
     display:none;
 }
-
+.cc{
+    width:100vw;
+    height:20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color:white;
+    display: flex-end;
+}
 @media only screen and (max-width: 600px){
     #ul{
      display:none
@@ -335,11 +344,12 @@ p{
      .content{
         margin-top:2%;
         width:80vw;
-        height:200vh;
+        height:auto;
         display:flex;
         align-items:center;
         flex-direction: column;
         font-family:"Poppins", sans-serif;
+        justify-content: space-evenly;
     }
     .titleone{
         font-size:30px;
@@ -357,5 +367,18 @@ p{
     .review{
         font-size:22px;
         text-align: center;
+    }
+    .cc{
+        
+            width:100vw;
+            height:20vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            color:white;
+            
+            
+        
     }
   }
