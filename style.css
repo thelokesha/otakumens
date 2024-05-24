@@ -1,0 +1,361 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+body{
+    min-width: auto;
+    min-height: auto;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+  }
+.lineupper{
+    display:flex;
+    width:100%;
+    height:1px;
+background:black;
+}
+.webname{
+    font-size:30px;
+    font-family: monospace;
+}
+  .nav{
+      width:100vw;
+      display: flex;
+      justify-content: center;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+  }
+  .navv{
+      margin-top:1%;
+      width:90vw;
+      height:12vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-between;
+  }
+  #ul {
+      width:36%;
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      font-size:19px;
+      color:hsl(0, 0%, 0%);
+  }
+  #ul li{
+    padding:10px;
+
+  }
+  #ul li:hover{
+      cursor: pointer;
+     color:rgb(255, 255, 255);
+     background-color: rgb(39, 37, 37);
+     
+   
+
+  }
+.sidebar{
+      width:70vw;
+      height:100vh;
+      position: fixed;
+      z-index: 999;
+      top:0;
+      right:0;
+      background-color: white;
+      box-shadow: -5px 5px 5px rgba(66, 63, 63, 0.589);
+      display:none;
+  }
+  .navvv{
+      margin-top:1%;
+      width:100%;
+      height:30vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .navvv img{
+      margin-left:50%;
+      width:22px;
+      height:22px;
+      margin-top:5%;
+  }
+  #ull{
+      width:70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      list-style-type: none;
+      font-size:16px;
+      color:hsl(236, 13%, 42%);
+      justify-content: flex-start;
+      color:rgb(24, 23, 23);
+      
+  }
+  #ull li:hover{
+     border: 0.5px solid rgba(0, 0, 0, 0.164);
+      background-color:rgba(155, 154, 154, 0.062);
+      cursor: pointer;
+  
+  }
+  #ull li{
+      margin-top: 10px;
+  }
+  #ull li{
+    margin-top: 10px;
+}
+img{
+    cursor: pointer;
+}
+#open{
+    cursor: pointer; 
+    display:none; 
+}
+.d-md-block h5{
+    font-size:29px;
+color:black;
+font-weight: bolder;
+font-family:serif;
+
+
+}
+.d-md-block p {
+    font-size:24px;
+    color:black;
+    font-weight: bolder;
+    font-family: serif;
+}
+/*main part*/
+.content{
+    margin-top:2%;
+    width:80vw;
+    height:200vh;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    font-family:"Poppins", sans-serif;
+}
+.titleone{
+    font-size:30px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.windbreaker{
+    height:300px;
+    margin-bottom:2%;
+}
+p{
+    font-size:22px;
+}
+.review{
+    font-size:24px;
+}
+.watch{
+    width:140px;
+    height:50px;
+    background-color: #e46a61;
+    border-radius: 10px;
+    border: none;
+    font-size:22px;
+    color:white;
+    margin-bottom:2%;
+    border:1px solid black;
+   align-items: center;
+    justify-content: center;
+}
+.watch:hover{
+    color: #e46a61;
+    background-color:white;
+    cursor: pointer;
+}
+.download{
+    width:140px;
+    height:50px;
+    background-color: #008CBA;
+    border-radius: 10px;
+    border: none;
+    font-size:22px;
+    color:white;
+    margin-bottom:5%;
+    border:1px solid black;
+    align-items: center;
+    justify-content: center;
+
+}
+.download:hover{
+    cursor: pointer;
+  color: #008CBA;
+  background-color:white;
+}
+
+#sone{
+    font-size:30px;
+    font-weight: bold;
+    color:rgb(86, 236, 236);
+    cursor: pointer;
+}
+.e{
+    font-weight: bold;
+    display:none;
+    cursor: pointer;
+    text-align: center;
+}
+#wnd{
+    display:none;
+}
+#watchone{
+    display:none;
+}
+#downloadone{
+    display:none;
+}
+#watchtwo{
+    display:none;
+}
+#downloadtwo{
+    display:none;
+}
+#watchthree{
+    display:none;
+}
+#downloadthree{
+    display:none;
+}
+#watchfour{
+    display:none;
+}
+#downloadfour{
+    display:none;
+}
+#watchfive{
+    display:none;
+}
+#downloadfive{
+    display:none;
+}
+#watchsix{
+    display:none;
+}
+#downloadsix{
+    display:none;
+}
+#watchseven{
+    display:none;
+}
+#downloadseven{
+    display:none;
+}
+#watcheight{
+    display:none;
+}
+#downloadeight{
+    display:none;
+}
+#watchnine{
+    display:none;
+}
+#downloadnine{
+    display:none;
+}
+#watchten{
+    display:none;
+}
+#downloadten{
+    display:none;
+}
+
+#vidplayerone{
+    display:none;
+}
+#vidplayertwo{
+    display:none;
+}
+#vidplayerthree{
+    display:none;
+}
+#vidplayerfour{
+    display:none;
+}
+#vidplayerfive{
+    display:none;
+}
+#vidplayersix{
+    display:none;
+}
+#vidplayerseven{
+    display:none;
+}
+
+@media only screen and (max-width: 600px){
+    #ul{
+     display:none
+    }
+    .webname{
+        font-size:25px;
+        font-family: monospace;
+        text-align: center;
+    }
+    #open{
+     display:flex;
+    }
+    #ull{
+        width:50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style-type: none;
+        font-size:20px;
+        color:hsl(0, 0%, 11%);
+        justify-content: flex-start;  
+    }
+    #ull li{
+        margin-top: 10px;
+        padding:10px;
+        color:rgb(0, 0, 0);
+    }
+    #ull li:hover{
+        border: 0.5px solid rgba(0, 0, 0, 0.164);
+         background-color:rgb(2, 2, 2);
+         cursor: pointer;
+         color:white;
+         
+     
+     }
+   
+     .content{
+        margin-top:2%;
+        width:80vw;
+        height:200vh;
+        display:flex;
+        align-items:center;
+        flex-direction: column;
+        font-family:"Poppins", sans-serif;
+    }
+    .titleone{
+        font-size:30px;
+        font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .windbreaker{
+        height:300px;
+        margin-bottom:2%;
+    }
+    p{
+        font-size:20px;
+    }
+    .review{
+        font-size:22px;
+        text-align: center;
+    }
+  }
